@@ -18,10 +18,7 @@
   </node>
   <arg
     name="gui"
-    default="True" />
-  <param
-    name="use_gui"
-    value="$(arg gui)" />
+    default="false" />
   <node
     name="joint_state_publisher"
     pkg="joint_state_publisher"
